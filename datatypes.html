@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //number datatype
+       
+        var a = 2;
+        console.log(a);
+        var b = a;//pass by value
+        var a = 3;
+       
+        console.log("number is immutable so b value remains the same");
+        console.log(a);
+        console.log(b);
+        var f=a+"hi"
+       console.log(f);
+        console.log(typeof(f));
+        //string data type
+        var text1="hello";
+        text1[0]="m";// string value can not be manipulated as it is immutable
+          console.log("string length :"+text1.length);
+        console.log(text1);
+          //boolean data type
+          
+          var y=4;
+          console.log(x==y);//false
+          console.log(x!=y);//true
+       //undefined
+       var x;
+       console.log(x);
+       //array
+       const vehicles=["bike","car","auto"];
+       console.log(vehicles[0]);
+       vehicles[1]="bus";
+       vehicles.push("cab");
+       console.log(vehicles);
+       //objects
+       const college={
+        name:"jntu",
+        area:"kondagattu",
+        landmark:" Hanuman temple"
+       };
+       console.log(college);
+       console.log(college.name);
+       console.log(college["area"]);
+       college.area="hhh";
+       console.log(college);
+
+    </script>
+</body>
+</html>
